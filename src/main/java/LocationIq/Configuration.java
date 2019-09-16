@@ -13,7 +13,7 @@
 package LocationIq;
 
 public class Configuration {
-    private static ApiClient defaultApiClient = new ApiClient();
+    private static ApiClient defaultApiClient = new ApiClient("key");
 
     /**
      * Get the default API client, which would be used when creating API instances without providing an API
