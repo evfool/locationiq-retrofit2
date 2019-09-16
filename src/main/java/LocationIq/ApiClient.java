@@ -238,7 +238,8 @@ class GsonResponseBodyConverterToString<T> implements Converter<ResponseBody, T>
     this.type = type;
   }
 
-  @Override public T convert(ResponseBody value) throws IOException {
+  @SuppressWarnings("unchecked")
+@Override public T convert(ResponseBody value) throws IOException {
     String returned = value.string();
     try {
       return gson.fromJson(returned, type);
