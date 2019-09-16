@@ -20,7 +20,8 @@ public class BalanceApiTest {
     /**
      * 
      *
-     * The Balance API provides a count of request credits left in the user&#39;s account for the day. Balance is reset at midnight UTC everyday (00:00 UTC).
+     * The Balance API provides a count of request credits left in the user&#39;s account for the day. Balance
+     * is reset at midnight UTC everyday (00:00 UTC).
      */
     @Test
     public void balanceTest() {
