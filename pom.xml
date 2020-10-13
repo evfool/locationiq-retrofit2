@@ -216,6 +216,6 @@
         <swagger-annotations-version>1.5.22</swagger-annotations-version>
         <retrofit-version>2.5.0</retrofit-version>
         <oltu-version>1.0.1</oltu-version>
-        <junit-version>4.12</junit-version>
+        <junit-version>4.13.1</junit-version>
     </properties>
 </project>
